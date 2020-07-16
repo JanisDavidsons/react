@@ -1,0 +1,60 @@
+body {
+  background-color: silver;
+}
+
+.video {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.videoTime {
+  margin-top: 12px;
+  color: white;
+}
+
+.playBtn,
+.pauseBtn,
+.stopBtn {
+  width: 40px;
+  margin: 0 5px;
+}
+
+.playBtn:hover,
+.pauseBtn:hover,
+.stopBtn:hover {
+  cursor: pointer;
+}
+
+.volumeSlider:hover {
+  cursor: pointer;
+}
+
+.fullScreen {
+  width: 30px;
+  margin-top: 7px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.progress {
+  margin-top: 15px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+.progressBar {
+  transform: translatex(-6px);
+  background: rgb(255, 255, 255);
+  height: 8px;
+  border-radius: 20px;
+}
+
+.controls {
+  padding: 0;
+  margin: 0;
+  transform: translateY(-40px);
+  background: linear-gradient(transparent, #111);
+}
